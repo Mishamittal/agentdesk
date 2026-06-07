@@ -33,9 +33,9 @@ KNOWLEDGE BASE:
 
 # Main chat loop
 def run_agent():
-    BUSINESS_NAME = "Brew & Bloom Coffee Shop"
-    AGENT_NAME    = "Maya"
-    FAQ_PATH      = "knowledge/test_clients/brewbloom_faq.txt"
+    BUSINESS_NAME = "Omega Insurance Brokers LLC"
+    AGENT_NAME    = "Aria"
+    FAQ_PATH      = "knowledge/test_clients/omega_insurance_faq.txt"
 
     faq_content   = load_faq(FAQ_PATH)
     system_prompt = build_system_prompt(BUSINESS_NAME, AGENT_NAME, faq_content)
